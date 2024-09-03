@@ -5,9 +5,9 @@ Feature: Validating Place API's
 
 Scenario: Verify if place is being successfully added using AddPlaceAPI
 
-Given Add Place payload
+Given Delete Place payload
 
-When user calls "AddPlaceAPI" with post http request
+When user calls "DeletePlaceAPI" with post http request
 
 Then the API call got success with status code 200
 
